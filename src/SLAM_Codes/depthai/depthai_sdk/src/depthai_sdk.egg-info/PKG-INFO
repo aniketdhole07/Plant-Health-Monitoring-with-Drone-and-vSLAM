@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: depthai-sdk
+Version: 1.9.0
+Summary: This package provides an abstraction of the DepthAI API library.
+Home-page: https://github.com/luxonis/depthai/tree/main/depthai_sdk
+Author: Luxonis
+Author-email: support@luxonis.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/luxonis/depthai/issues
+Project-URL: Source Code, https://github.com/luxonis/depthai/tree/main/depthai_sdk
+Description: # DepthAI SDK
+        
+        [![Discord](https://img.shields.io/discord/790680891252932659?label=Discord)](https://discord.gg/luxonis)
+        [![Forum](https://img.shields.io/badge/Forum-discuss-orange)](https://discuss.luxonis.com/)
+        [![Docs](https://img.shields.io/badge/Docs-DepthAI_SDK-yellow)](https://docs.luxonis.com/projects/sdk)
+        [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+        [![](https://img.shields.io/pypi/v/depthai-sdk.svg)](https://pypi.org/project/depthai-sdk/)
+        
+        DepthAI SDK is a Python package, containing convenience classes and functions that help in most common tasks while using DepthAI API.
+        
+        To know more about the DepthAI itself, visit [our documentation](https://docs.luxonis.com/projects/sdk/en/latest/) or [our webpage](https://luxonis.com)
+        
+        ## Installation
+        
+        To install this package, run the following command in your terminal window
+        
+        ```
+        $ python3 -m pip install depthai-sdk
+        ```
+        
+        > :warning: **If you're using Raspberry Pi**, providing a Pi Wheels extra package url can significantly speed up the installation process by providing prebuilt binaries for OpenCV
+        > ```
+        > $ pip install --extra-index-url https://www.piwheels.org/simple/ depthai-sdk
+        > ```
+        
+        ## Usage
+        
+        Please visit [DepthAI SDK documentation page](https://docs.luxonis.com/projects/sdk/en/latest/).
+        
+        
+        ## API
+        
+        Please visit [DepthAI SDK API](https://docs.luxonis.com/projects/sdk/en/latest/api/) for full API reference
+        
+Keywords: depthai sdk oak camera
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Provides-Extra: record
+Provides-Extra: replay
+Provides-Extra: visualize
